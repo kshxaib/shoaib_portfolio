@@ -159,7 +159,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative h-screen w-full overflow-hidden pt-20"
+      className="relative min-h-screen w-full overflow-hidden pt-20 min-w-screen"
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-purple-900/20 to-gray-950 z-0" />
